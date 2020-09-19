@@ -1,2 +1,2 @@
 # DECO7180
-A website to search for Camping sites
+A website to search for camping sites.
