@@ -33,7 +33,7 @@ $(document).ready(function() {
 
     var reserves = {
         resource_id: "a0b57c71-fcb8-479b-ba74-c0f74d8aec2d",
-        limit: 12
+        limit: 50
     }
 
 
