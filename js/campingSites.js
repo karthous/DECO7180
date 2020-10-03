@@ -18,9 +18,17 @@ function iterateRecords(results) {
 		var lat = recordValue["lat"];
 		var long = recordValue["lon"];
 		var marker = L.marker([lat, long]).addTo(myMap);
-		popupText = "<strong>" + recordValue["name"];
-		marker.bindPopup(popupText).openPopup();
+		var name = recordValue["name"];
+		var url = recordValue["url"];
 
+		if(name == "") {
+			name = "The name of this camping site is unknown."
+		}
+		if(url == "") {
+			url = "The url of this camping site is unknown.";
+		}
+		popupText = "<strong>" + name + "</strong>" + "<br>" + "<U>" + url + "</U>";
+		marker.bindPopup(popupText).openPopup();
 	});
 
 }

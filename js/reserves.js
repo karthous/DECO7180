@@ -18,14 +18,18 @@ function iterateRecords(results) {
         var wktGrometry = recordValue["WKT_Geometry"];
         var geoJSON = Terraformer.WKT.parse(wktGrometry);
         var marker = L.geoJSON(geoJSON).addTo(myMap);
-        if(recordValue["name"] !== "") {
-            popupText = "<strong>" + recordValue["name"];
+        var name = recordValue["name"];
+		var url = recordValue["url"];
 
-        } else {
-            popupText = "<strong>" + "The name of this reserve is unknown";
-        }
-        marker.bindPopup(popupText).openPopup();
-    });
+		if(name == "") {
+			name = "The name of this reserve is unknown."
+		}
+		if(url == "") {
+			url = "The url of this reserve is unknown.";
+		}
+		popupText = "<strong>" + name + "</strong>" + "<br>" + "<U>" + url + "</U>";
+		marker.bindPopup(popupText).openPopup();
+	});
 
 }
 
