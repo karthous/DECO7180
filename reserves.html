@@ -1,20 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Reserves</title>
-    <link rel="stylesheet" href="css/leaflet.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<article id="map"></article>
-
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/terraformer.js"></script>
-<script src="js/terraformer-wkt-parser-1.2.1.min.js"></script>
-<script src="js/leaflet.js"></script>
-<script src="js/reserves.js"></script>
-
-</body>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Reserves</title>
+        <link rel="stylesheet" href="css/mainstyle.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" href="css/comments.css">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">logo</div>
+                    <ul>
+                        <li><a class="active" href="Reserves.html">Reserves</a></li>
+                        <li><a href="Campsites.html">Campsites</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="left">
+                <div class="gallery">
+                    <div class="img_list">
+                        <a target="_blank" href="img/img1.jpg">
+                            <img src="img/img1.jpg" alt="img1">
+                        </a>
+                    </div>
+                    <div class="img_list">
+                        <a target="_blank" href="img/img2.jpg">
+                            <img src="img/img2.jpg" alt="img2">
+                        </a>
+                    </div>
+                    <div class="img_list">
+                        <a target="_blank" href="img/img3.jpg">
+                            <img src="img/img3.jpg" alt="img3">
+                        </a>
+                    </div>
+                    <div class="img_list">
+                        <a target="_blank" href="img/img4.jpg">
+                            <img src="img/img4.jpg" alt="img4">
+                        </a>
+                    </div>
+                    <div class="img_list">
+                        <a target="_blank" href="img/img5.jpg">
+                            <img src="img/img5.jpg" alt="img5">
+                        </a>
+                    </div>
+                    <div class="img_list">
+                        <a target="_blank" href="img/img6.jpg">
+                            <img src="img/img6.jpg" alt="img6">
+                        </a>
+                    </div>
+                    <div class="img_list">
+                        <a target="_blank" href="img/img7.jpg">
+                            <img src="img/img7.jpg" alt="img7">
+                        </a>
+                    </div>
+                    <div class="img_list">
+                        <a target="_blank" href="img/img8.jpg">
+                            <img src="img/img8.jpg" alt="img8">
+                        </a>
+                    </div>
+                </div>
+                <div class="comments">
+                    <div class="user_comments">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, recusandae?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nesciunt?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, maxime!</p>
+                    </div>
+                    <textarea name="comments" id="comments" placeholder="Please enter your comments here."></textarea>
+                </div>
+            </div>
+            <div class="right">
+                <div class="map"><article id="map"></article></div>
+                <div class="name">Lorem ipsum dolor sit amet.</div>
+                <div class="url">Lorem ipsum dolor sit amet.</div>
+            </div>
+        </div>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/terraformer.js"></script>
+        <script src="js/terraformer-wkt-parser-1.2.1.min.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/reserves.js"></script>
+    </body>
 </html>

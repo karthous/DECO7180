@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
+.container > div{
+    padding: 1em;
+}
+
+.container .left{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
+.container .left > div{
+    border: 3px solid orange;
+    padding: 1em;
+}
+
+.container .right{
+    display: grid;
+    grid-template-rows: 10fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.container .right > div{
+    border: 3px solid orange;
+    padding: 1em;
+}
