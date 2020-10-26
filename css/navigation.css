@@ -1,3 +1,10 @@
+.logo {
+    width: 10%;
+    cursor: pointer;
+    float: left;
+    margin-left: 5vw;
+}
+
 nav{
     position: fixed;
     top: 0;
@@ -6,17 +13,7 @@ nav{
     height: 100px;
     padding: 10px 90px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-nav .logo{
-    padding: 22px 20px;
-    height: 80px;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav ul{

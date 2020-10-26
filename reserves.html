@@ -3,80 +3,108 @@
     <head>
         <meta charset="utf-8">
         <title>Reserves</title>
-        <link rel="stylesheet" href="css/mainstyle.css">
+        <link rel="stylesheet" href="css/reserves.css">
         <link rel="stylesheet" href="css/navigation.css">
-        <link rel="stylesheet" href="css/gallery.css">
-        <link rel="stylesheet" href="css/comments.css">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <div class="logo">logo</div>
+        <div class="box-area">
+            <div class="wrapper">
+                <nav>
+                    <a href="homepage.html"><img src="img/logo.png" class="logo"></a>
                     <ul>
                         <li><a class="active" href="reserves.html">Reserves</a></li>
                         <li><a href="campingSites.html">Campsites</a></li>
+                        <li><a href="skateparks.html">Skateparks</a></li>
+                        <li><a href="gardens.html">Gardens</a></li>
                     </ul>
-            </nav>
-        </header>
-        <div class="container">
-            <div class="left">
-                <div class="gallery">
-                    <div class="img_list">
-                        <a target="_blank" href="img/img1.jpg">
-                            <img src="img/img1.jpg" alt="img1">
-                        </a>
-                    </div>
-                    <div class="img_list">
-                        <a target="_blank" href="img/img2.jpg">
-                            <img src="img/img2.jpg" alt="img2">
-                        </a>
-                    </div>
-                    <div class="img_list">
-                        <a target="_blank" href="img/img3.jpg">
-                            <img src="img/img3.jpg" alt="img3">
-                        </a>
-                    </div>
-                    <div class="img_list">
-                        <a target="_blank" href="img/img4.jpg">
-                            <img src="img/img4.jpg" alt="img4">
-                        </a>
-                    </div>
-                    <div class="img_list">
-                        <a target="_blank" href="img/img5.jpg">
-                            <img src="img/img5.jpg" alt="img5">
-                        </a>
-                    </div>
-                    <div class="img_list">
-                        <a target="_blank" href="img/img6.jpg">
-                            <img src="img/img6.jpg" alt="img6">
-                        </a>
-                    </div>
-                    <div class="img_list">
-                        <a target="_blank" href="img/img7.jpg">
-                            <img src="img/img7.jpg" alt="img7">
-                        </a>
-                    </div>
-                    <div class="img_list">
-                        <a target="_blank" href="img/img8.jpg">
-                            <img src="img/img8.jpg" alt="img8">
-                        </a>
-                    </div>
-                </div>
-                <div class="comments">
-                    <div class="user_comments">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, recusandae?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nesciunt?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, maxime!</p>
-                    </div>
-                    <textarea name="comments" id="comments" placeholder="Please enter your comments here."></textarea>
-                </div>
+                </nav>
             </div>
-            <div class="right">
-                <div class="map"><article id="map"></article></div>
-                <div class="name">Lorem ipsum dolor sit amet.</div>
-                <div class="url">Lorem ipsum dolor sit amet.</div>
+            <div class="banner-area">
+                <h1>Southern Grampians' Reserves</h1>
+            </div>
+            <div class="content-area">
+                <h2>Let's Go Reserves</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, mollitia?</p>
+                <div class="information">
+                    <div class="info-box">
+                        <div class="map"><article id="map"></article></div>
+                    </div>
+                    <div class="info-box">
+                        <div class="card">
+                            <input type="radio" name="select" id="tap-1" checked>
+                            <input type="radio" name="select" id="tap-2">
+                            <input type="radio" name="select" id="tap-3">
+                            <input type="radio" name="select" id="tap-4">
+                            <input type="radio" name="select" id="tap-5">
+                            <input type="radio" name="select" id="tap-6">
+                            <input type="checkbox" id="imgTap">
+                            <div class="sliders">
+                                <label for="tap-1" class="tap tap-1"></label>
+                                <label for="tap-2" class="tap tap-2"></label>
+                                <label for="tap-3" class="tap tap-3"></label>
+                                <label for="tap-4" class="tap tap-4"></label>
+                                <label for="tap-5" class="tap tap-5"></label>
+                                <label for="tap-6" class="tap tap-6"></label>                                                                
+                            </div>
+                            <div class="inner-part">
+                                <label for="imgTap" class="img">
+                                    <img src="img/img4.jpg" class="img-1">
+                                </label>
+                                <div class="content content-1">
+                                    <div class="title">Coleraine Railway Reserve</div>
+                                    <button><a href="colerain railway reserve.html">Find More Information</a></button>
+                                </div>
+                            </div>
+                            <div class="inner-part">
+                                <label for="imgTap" class="img">
+                                    <img src="img/img5.jpg" class="img-2">
+                                </label>
+                                <div class="content content-2">
+                                    <div class="title">Points Reserve</div>
+                                    <button><a href="Points reserve.html">Find More Information</a></button>
+                                </div>
+                            </div>
+                            <div class="inner-part">
+                                <label for="imgTap" class="img">
+                                    <img src="img/img6.jpg" class="img-3">
+                                </label>
+                                <div class="content content-3">
+                                    <div class="title">East Park</div>
+                                    <button><a href="east park.html">Find More Information</a></button>
+                                </div>
+                            </div>
+                            <div class="inner-part">
+                                <label for="imgTap" class="img">
+                                    <img src="img/img7.jpg" class="img-4">
+                                </label>
+                                <div class="content content-4">
+                                    <div class="title">Queens Park</div>
+                                    <button><a href="queens park.html">Find More Information</a></button>
+                                </div>
+                            </div>
+                            <div class="inner-part">
+                                <label for="imgTap" class="img">
+                                    <img src="img/img8.jpg" class="img-5">
+                                </label>
+                                <div class="content content-5">
+                                    <div class="title">Coleraine Racecourse</div>
+                                    <button><a href="coleraine race course.html">Find More Information</a></button>
+                                </div>
+                            </div>
+                            <div class="inner-part">
+                                <label for="imgTap" class="img">
+                                    <img src="img/img1.jpg" class="img-6">
+                                </label>
+                                <div class="content content-6">
+                                    <div class="title">Wannon Falls Gates & Reserve</div>
+                                    <button><a href="wannon falls.html">Find More Information</a></button>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <script src="js/jquery-3.5.1.min.js"></script>
