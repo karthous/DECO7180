@@ -2,7 +2,7 @@
     width: 10%;
     cursor: pointer;
     float: left;
-    margin-left: 5vw;
+    transform: translateX(-2vw);
 }
 
 nav{
